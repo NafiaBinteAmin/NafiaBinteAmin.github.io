@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  body{
+    background-color:lightgrey ;
+  }
+
+div.position{
+
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 100%;
+  align-content: center;
+
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 1;
+}
+
+div.gallery img {
+  width: 100%;
+height: 100%;
+}
+
+div.text {
+  padding: 15px;
+  text-align: center;
+}
+
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  opacity:0.5;
+ } 
+
+  
+</style>
+</head>
+<body>
+<div class="position">
+
+<div class="gallery">
+  <a href="CV.html"target="_blank"><img src="CV.png" width="600" height="400"></a>
+
+  <div class="text">Resume</div>
+
+</div>
+
+<div class="gallery">
+   <a href="survey.html"target="_blank"><img src="survey.png" width="600" height="400"></a>
+
+  <div class="text">Survey</div>
+
+</div>
+
+</div>
+</body>
+</html>
+
+
