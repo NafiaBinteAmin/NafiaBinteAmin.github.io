@@ -32,6 +32,12 @@ body{
 	padding: 40px;
 }
 
+.right{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+
 .profiletext
 {
 	position: relative;
@@ -42,7 +48,7 @@ body{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);	
 }
 
-.profiletext .imgbx
+.profiletext .image
 {
 	
 	width: 200px;
@@ -51,7 +57,7 @@ body{
 	overflow: hidden;
 }
 
-.profiletext .imgbx img
+.profiletext .image img
 {
 	
 	width: 100%;
@@ -62,15 +68,13 @@ body{
 .profiletext h2
 {
 	color: #fff;
-	
 	margin-top: 20px;
 	text-transform: uppercase;
 	font-weight: 600;
 	line-height: 1.4em;
-
 }
 
-.contactinfo
+.contact
 {
 	padding-top: 40px;
 }
@@ -81,31 +85,27 @@ body{
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 1px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
-.contactinfo ul li
+.contact ul li
 {
     
 	list-style: none;
 	cursor: pointer;
 }
 
-.contactinfo ul li .icon
+.contact ul li .icon
 {
 	display: inline-block;
 	width: 30px;
 	font-size: 18px;
 	color: #03a9f4;
-
 }
 
-.contactinfo ul li .text
-{
-color: #fff;
-}
 
-a:link {
+
+.contact a:link {
   color: #fff; 
   text-decoration: none;
 }
@@ -140,13 +140,33 @@ a:link {
 	font-weight: 5000;
 }
 
+.education .first{
+	display: flex;
+	flex-direction: row;
+	
+}
 
-
-
-.right{
+.education .third{
 	position: relative;
-	background: #fff;
-	padding: 40px;
+	top: 98px ;
+}
+
+
+.portfolio
+{
+	margin-bottom: 50px;
+
+}
+
+a:link {
+  color: black; 
+  text-decoration: none;
+
+}
+
+.language ul li
+{
+	list-style: none;
 }
 
 .about
@@ -159,11 +179,11 @@ p{
 }
 
 
-.abonda
+.curricular
 {
-	margin-bottom: 10px;
-}
+	margin-bottom: 50px;
 
+}
 
 .title2
 {
@@ -174,91 +194,36 @@ p{
 }
 
 
-.abonda .box
+
+
+
+
+
+.training
 {
-	display: flex;
-	flex-direction: row;
-	margin: 20px 0;
+	margin-bottom: 50px;
+
 }
 
-.abonda .box .yearcompany
+.skills
 {
-min-width: 150px;
+	margin-bottom: 50px;
+
 }
 
-.abonda .box .yearcompany h5
-{
-	text-transform: uppercase;
-	color: #848c90;
-	font-weight: 600;
-}
-
-.abonda .box .text h4
-{
-text-transform: uppercase;
-color: #2a7da2;
-font-size: 16px;
-}
-
-
-
-.skills .box h4 
-{
-text-transform: uppercase;
-color: #848c99;
-font-weight: 500;
-}
-
-
-
-
-
-.interest ul
-{
-	display: grid;
-	grid-template-columns: 30px 0px;
-}
 
 .interest ul li
 {
+    
 	list-style: none;
-	color: #333;
-	font-weight: 500;
-	margin: 10px 0;
 }
 
 
-@media (max-width: 1000px)
-{
-	.container
-	{
-		margin: 10px;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.interest ul
-	{
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
 
-@media (max-width: 600px)
-{
-.about .box
-{
-	flex-direction: column;
-}
-.about .box .yearcompany
-{
-	margin-bottom: 5px;
-}
-.interest ul
-{
-	display: grid;
-	grid-template-columns: repeat(1,1fr);
-}
 
-.skills .box
-{
-	grid-template-columns: repeat(1, 1fr);
-}
+.intrst {
+  max-width: 30%;
+  float: left;
+  
+
 }
