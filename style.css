@@ -105,17 +105,17 @@ body{
 
 
 
-.contact a:link {
+.contact a:link, a:visited {
   color: #fff; 
   text-decoration: none;
 }
+
+
 
 .education
 {
 	padding-top: 30px;
 }
-
-
 
 
 .education li
@@ -192,10 +192,6 @@ p{
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 }
-
-
-
-
 
 
 
